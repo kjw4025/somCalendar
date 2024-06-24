@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('../fonts/Cafe24Ssurround.ttf') format('truetype');
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+	}
+	
+	@font-face {
+	    font-family: 'Bareun_hipi';
+	    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_01@1.0/Bareun_hipi.woff') format('woff');
+	    font-weight: normal;
+	    font-style: normal;
+	}
+@media screen and (min-width: 200px){
+	.calendarTop{
+		height: 50px;
+	}
+	.Sunday {
+		color: red;
+	}
+	.calendarTable{
+		height: 650px;
+		width: 750px;
+		border-collapse: collapse;
+	}
+	body{
+		font-family: 'Bareun_hipi';
+		font-size: 20px;
+	}
+	
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+	
+}

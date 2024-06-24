@@ -1,0 +1,224 @@
+@charset "EUC-KR";
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('../fonts/Cafe24Ssurround.ttf') format('truetype');
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+	}
+	
+	@font-face {
+	    font-family: 'Bareun_hipi';
+	    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_01@1.0/Bareun_hipi.woff') format('woff');
+	    font-weight: normal;
+	    font-style: normal;
+	}
+@media screen and (min-width: 200px){
+	body{
+		font-family: 'Bareun_hipi';
+		padding-left: 70px;
+		background-color: #DCEBFF;
+	} 
+	.delete{
+		border: 0px;
+		background-color: white;
+		font-size: 50px;
+	}
+	.back{
+		width: 1200px; 
+		height: 1200px;
+		padding-left: 65px;
+		padding-bottom: 50px;
+		border-style: solid;
+		border-width: 3px;
+		background-color: #FFFFFF;
+		position: absolute;
+		top: 65%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		margin: 0 auto;
+		border: 3px solid #C8C8FF;
+	}
+	.user{
+		background-image: url('../../image/user1.png');
+		width: 120px;		
+		height: 70px;
+		background-position:  0px 0px;
+		background-repeat: no-repeat;
+		border: 0px;
+		cursor:pointer;
+		outline: 0;
+		margin: 10px;
+		float: left;
+	}
+	.table {
+		table-layout: fixed;
+		/*border : 1px solid black;*/
+ 		margin-bottom: 1em;
+		vertical-align: middle;
+		width: 550px;
+		height: 150px;
+	}
+	.center{
+		text-align: center;
+		font-family: 'Bareun_hipi';
+	}
+	.left{
+		text-align: left;
+		font-family: 'Bareun_hipi';
+	}
+	
+	div{
+		padding-left: 30px;
+	}
+	fieldset{
+		width: 1100px;
+		padding-left: 20px;
+		border-style:solid; 
+		border-width:3px;
+		height: 300px;
+		margin-bottom: 40px;
+	}
+	.legend{
+		font-size: 45px;
+		font-family: fantasy;
+	}
+	.legend2{
+		font-size: 25px;
+		font-weight:lighter;
+	}
+	.t{
+		width: 250px;
+		padding-left: 20px;
+		border-style:solid; 
+		border-width:3px;
+		height: 200px;
+	}
+	.t2{
+		width: 130px;
+		padding-left: 20px;
+		border-style:solid; 
+		border-width:3px;
+		height: 200px;
+	}
+
+	.add_y{
+		margin:0px;
+		width:70px;
+		height: 70px;
+		background-image:url('../../image/add_y.jpg');
+		background-position:  0px 0px;
+		background-repeat: no-repeat;
+		border: 0px;
+		cursor:pointer;
+		outline: 0;
+	}
+	.add_b{
+		margin:0px;
+		width:70px;
+		height: 70px;
+		background-image:url('../../image/add_b.jpg');
+		background-position:  0px 0px;
+		background-repeat: no-repeat;
+		border: 0px;
+		cursor:pointer;
+		outline: 0;
+	}
+	.button{
+		margin:0px;
+		width:70px;
+		height: 70px;		
+		background-position:  0px 0px;
+		background-repeat: no-repeat;
+		border: 0px;
+		cursor:pointer;
+		outline: 0;
+	}
+	.button_y{
+		margin:0px;
+		width:30px;
+		height: 30px;
+		background-image:url('../../image/edit_y.jpg');
+		background-position:  0px 0px;
+		background-repeat: no-repeat;
+		border: 0px;
+		cursor:pointer;
+		outline: 0;
+	}
+	.button_b{
+		margin:0px;
+		width:30px;
+		height: 30px;
+		background-image:url('../../image/edit_b.jpg');
+		background-position:  0px 0px;
+		background-repeat: no-repeat;
+		border: 0px;
+		cursor:pointer;
+		outline: 0;
+	}
+	.edit{
+		width: 10px;
+	}
+	.myPet{
+		font-family: 'Bareun_hipi';
+		table-layout: fixed;
+		border: 3px solid #F0E68C;
+		vertical-align: middle;
+		width: 250px;
+		height: 200px;
+		border : 3px solid #FFFFDD;
+		font-size : 25px;
+		position: relative;
+		margin : 0px;
+		
+	}
+	.myPetImage{
+		width:70px;
+		height: 70px;
+	}
+	.myPetSex{
+		margin:0px;
+		width:40px;
+		height: 40px;
+		background-position:  0px 0px;
+		background-repeat: no-repeat;
+		border: 0px;
+		cursor:pointer;
+		outline: 0;
+	}
+	.myPet_div {
+		
+
+	}
+	.myPetBtn_div{
+		position: absolute;
+		top: 0px;
+	    right: 0px;
+	}
+	.delete{
+		font-family: 'Bareun_hipi';
+		vertical-align: top; 
+      	border: 0px;
+      	font-size: 20px;
+      	margin:0px;
+		width:30px;
+		height: 30px;
+   }
+   
+   .lt{
+   		height: 90px;
+   }
+   td{
+   		font-family: 'Bareun_hipi';
+   		font-size: 30px;
+   }
+   .btn{
+   font-family: 'Bareun_hipi';
+   	width:100px;
+   	height: 50px;
+   	vertical-align: right;
+   	font-size: 20px;
+   }
+	
+	
+}

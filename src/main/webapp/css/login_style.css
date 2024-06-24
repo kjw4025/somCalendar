@@ -1,0 +1,88 @@
+@charset "EUC-KR";
+
+fieldset {
+   padding-top: 0px;
+   padding-bottom: 50px;
+   border-style: solid;
+   border-width: 3px;
+   background-color: #FFFFFF;
+   position: absolute;
+   width: 900px;
+   height: 550px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   margin: 0 auto;
+   text-align: center;
+}
+
+body {
+   background-color: #DCEBFF;
+}
+
+h1 {
+   font-family: 'Cafe24Ssurround';
+   font-size: 80px;
+   color: #B4B4FF;
+   font-weight: 900;
+}
+
+.div_set {
+   border: 2px solid #adadad;
+   margin: 30px;
+   padding: 10px 10px;
+}
+
+legend {
+   font-family: 'Cafe24Ssurround';
+   font-size: 35px;
+   color: #FFFFFF;
+   background-color: #C8C8FF;
+}
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('../fonts/Cafe24Ssurround.ttf') format('truetype');
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bareun_hipi';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_01@1.0/Bareun_hipi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.text {
+   width: 94%;
+   border: none;
+   outline: none;
+   color: #636e72;
+   font-size: 16px;
+   height: 30px;
+   background: none;
+}
+
+.btn {
+   font-family: 'Bareun_hipi';
+   position: center;
+   font-weight: bold;
+   border: none;
+   width: 94%;
+   height: 50px;
+   font-size: 30px;
+}
+
+.signup {
+   font-family: 'Bareun_hipi';
+   text-align: right;
+   margin: 2%;
+   padding-top: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: #B4B4FF;
+}

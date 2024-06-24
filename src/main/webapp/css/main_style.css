@@ -1,0 +1,83 @@
+@charset "EUC-KR";
+@font-face {
+       font-family: 'Cafe24Ssurround';
+       src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+       font-weight: 900;
+       font-style: normal;
+   }
+   
+   @font-face {
+       font-family: 'Bareun_hipi';
+       src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_01@1.0/Bareun_hipi.woff') format('woff');
+       font-weight: normal;
+       font-style: normal;
+   }
+@media screen and (min-width: 200px){
+   body{
+      padding-left: 70px;
+      background-color: #DCEBFF;
+   } 
+   .back{
+      width: 1200px; 
+      height: 1200px;
+      padding-left: 65px;
+      padding-bottom: 50px;
+      border-style: solid;
+      border-width: 3px;
+      position: absolute;
+      top: 65%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0 auto;
+      border: 3px solid #C8C8FF;
+   }
+
+   table{
+      width : 800px;
+      height : 500px;
+      margin : auto;
+      border-collapse:collapse;
+   }
+   h1{
+      font-family: 'Cafe24Ssurround';
+      color: #B4B4FF;
+      font-size: 80px;
+      font-weight: 900;
+      text-align:center;
+   }
+   
+   .mainPet{
+      border: 3px solid #C8C8FF;
+      background-color: #FFFFFF;
+   }
+   .dailyList_Container{
+      border: 3px solid #C8C8FF;
+      height : 700px;
+      background-color: #FFFFFF;
+   }
+   .main_container{
+      margin-top : 30px;
+   }
+   .mainCalendar{
+      border: 3px solid #C8C8FF;
+      padding : 15px;
+      background-color: #FFFFFF;
+   }
+   .empty{
+      width :100px;
+      
+   }
+   .emptyContainer{
+      width :50px;
+      background-color: #DCEBFF;
+      border-top: none; 
+      border-bottom: none; 
+
+   }
+   .button{
+      height: 50px;
+      width: 130px;
+      font-family: 'Bareun_hipi';
+   }
+
+}
